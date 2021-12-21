@@ -8,7 +8,7 @@
       </style>
       
    
-    <image src="https://raw.githubusercontent.com/polypheny/Admin/master/Logo/logo-white-text.png">
+    
 
     </div>
 
@@ -17,4 +17,6 @@
     
 
   </foreignObject>
+  
+  <image src="https://raw.githubusercontent.com/polypheny/Admin/master/Logo/logo-white-text.png">
 </svg>
