@@ -26,28 +26,20 @@ How to swap logos in README when using light or dark-mode
 ```
 
 
+picture>
+  <source 
+    srcset="https://raw.githubusercontent.com/polypheny/Admin/master/Logo/logo-transparent.png" 
+    media="(prefers-color-scheme: dark)">
+  <img src="https://raw.githubusercontent.com/polypheny/Admin/master/Logo/logo-white-text.png">
+</picture>
 
-<span id="mylogo">
-<style>
-#mylogo .darktheme,
-#mylogo .lighttheme {
- display: none;
-}
-
-[data-theme="dark"] #mylogo .darktheme {
-  display: inline;
-}
-
-[data-theme="light"] #mylogo .lighttheme {
-  display: inline;
-} 
-</style>
+<!--
 <a href="https://polypheny.org/">
-    <div>
-    <img class="darktheme" align="center" width="200" height="200" src="https://raw.githubusercontent.com/polypheny/Admin/master/Logo/logo-transparent.png#gh-light-mode-only" alt="Resume application project app icon">
-     </div>
-    <div>
-    <img class="lighttheme" align="center" width="200" height="200" src="https://raw.githubusercontent.com/polypheny/Admin/master/Logo/logo-white-text.png#gh-dark-mode-only" alt="Resume application project app icon">
-    </div>
+
+    <img align="center" width="200" height="200" src="https://raw.githubusercontent.com/polypheny/Admin/master/Logo/logo-transparent.png#gh-light-mode-only" alt="Resume application project app icon">
+
+    <img  align="center" width="200" height="200" src="https://raw.githubusercontent.com/polypheny/Admin/master/Logo/logo-white-text.png#gh-dark-mode-only" alt="Resume application project app icon">
+
 </a>
-</span>
+-->
+
