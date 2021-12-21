@@ -34,7 +34,7 @@ Basically there are two appraoches:
   <source 
     srcset="https://raw.githubusercontent.com/polypheny/Admin/master/Logo/logo-white-text.pngogo-transparent.png" 
     media="(prefers-color-scheme: dark)">
-  <img align="center" width="250" height="250" src="https://raw.githubusercontent.com/polypheny/Admin/master/Logo/logo-transparent.png">
+  <img src="https://raw.githubusercontent.com/polypheny/Admin/master/Logo/logo-transparent.png">
 </picture>
 
 
