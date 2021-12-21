@@ -19,6 +19,7 @@ Basically there are two appraoches:
 ## Using HTML code
 
 ```html
+<p align="center">
 <picture>
   <source 
     srcset="https://raw.githubusercontent.com/polypheny/Admin/master/Logo/logo-transparent.png" 
@@ -27,9 +28,10 @@ Basically there are two appraoches:
     <img align="center" width="250" height="250" src="https://raw.githubusercontent.com/polypheny/Admin/master/Logo/logo-white-text.png">
    </a>
 </picture>
+</p>
 ```
 
-
+<p align="center">
 <picture>
   <source 
     srcset="https://raw.githubusercontent.com/polypheny/Admin/master/Logo/logo-white-text.pngogo-transparent.png" 
@@ -38,6 +40,7 @@ Basically there are two appraoches:
     <img align="center" width="250" height="250" src="https://raw.githubusercontent.com/polypheny/Admin/master/Logo/logo-transparent.png">
    </a>
 </picture>
+</p>
 
 
 
