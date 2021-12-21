@@ -26,7 +26,7 @@ How to swap logos in README when using light or dark-mode
 ```
 
 
-picture>
+<picture>
   <source 
     srcset="https://raw.githubusercontent.com/polypheny/Admin/master/Logo/logo-transparent.png" 
     media="(prefers-color-scheme: dark)">
