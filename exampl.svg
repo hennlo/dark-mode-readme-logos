@@ -28,10 +28,8 @@
         <h1>Switch between light and dark mode to see the difference</h1>
         <p>Click to see the source</p>
       </div>
-    </div>
-    
-    
-    <span id="mylogo">
+      
+          <span id="mylogo">
 <style>
 #mylogo .darktheme,
 #mylogo .lighttheme {
@@ -56,5 +54,10 @@
 </a>
 </span>
     
+      
+    </div>
+    
+    
+
   </foreignObject>
 </svg>
