@@ -30,7 +30,9 @@ picture>
   <source 
     srcset="https://raw.githubusercontent.com/polypheny/Admin/master/Logo/logo-transparent.png" 
     media="(prefers-color-scheme: dark)">
-  <img src="https://raw.githubusercontent.com/polypheny/Admin/master/Logo/logo-white-text.png">
+  <a href="https://polypheny.org/">
+    <img src="https://raw.githubusercontent.com/polypheny/Admin/master/Logo/logo-white-text.png">
+   </a>
 </picture>
 
 <!--
