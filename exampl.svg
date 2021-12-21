@@ -2,44 +2,22 @@
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
-        .container {
-          margin: 20px auto;
-          padding: 0 20px;
-          max-width: 50%;
-          border: 10px solid red;
-          transform: rotate(1deg);
-        }
-        h1,
-        p {
-          color: black;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
-        }
         @media (prefers-color-scheme: dark) {
-          .container {
-            border-color: purple;
-          }
-          h1,
-          p {
-            color: white;
+           body {
+              background: #000;
           }
         }
       </style>
+      
       <div class="container">
         <h1>Switch between light and dark mode to see the difference</h1>
         <p>Click to see the source</p>
       </div>
       
-
-
-
-<a href="https://polypheny.org/">
-    <div>
-    <img class="darktheme" align="center" width="200" height="200" src="https://raw.githubusercontent.com/polypheny/Admin/master/Logo/logo-transparent.png#gh-light-mode-only" alt="Resume application project app icon">
-     </div>
-    <div>
-    <img class="lighttheme" align="center" width="200" height="200" src="https://raw.githubusercontent.com/polypheny/Admin/master/Logo/logo-white-text.png#gh-dark-mode-only" alt="Resume application project app icon">
-    </div>
-</a>
+<picture>
+  <source srcset="https://raw.githubusercontent.com/polypheny/Admin/master/Logo/logo-transparent.png" media="(prefers-color-scheme:dark)">
+  <img src="https://raw.githubusercontent.com/polypheny/Admin/master/Logo/logo-white-text.png">
+</picture>
 
     </div>
     
