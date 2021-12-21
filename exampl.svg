@@ -29,21 +29,9 @@
         <p>Click to see the source</p>
       </div>
       
-          <span id="mylogo">
-<style>
-#mylogo .darktheme,
-#mylogo .lighttheme {
- display: none;
-}
 
-[data-theme="dark"] #mylogo .darktheme {
-  display: inline;
-}
 
-[data-theme="light"] #mylogo .lighttheme {
-  display: inline;
-} 
-</style>
+
 <a href="https://polypheny.org/">
     <div>
     <img class="darktheme" align="center" width="200" height="200" src="https://raw.githubusercontent.com/polypheny/Admin/master/Logo/logo-transparent.png#gh-light-mode-only" alt="Resume application project app icon">
@@ -52,9 +40,7 @@
     <img class="lighttheme" align="center" width="200" height="200" src="https://raw.githubusercontent.com/polypheny/Admin/master/Logo/logo-white-text.png#gh-dark-mode-only" alt="Resume application project app icon">
     </div>
 </a>
-</span>
-    
-      
+
     </div>
     
     
