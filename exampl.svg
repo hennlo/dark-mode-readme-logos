@@ -7,10 +7,10 @@
         }
       </style>
       
-      <div class="container">
-        <h1>Switch between light and dark mode to see the difference</h1>
-        <p>Click to see the source</p>
-      </div>
+    <picture>
+  <source srcset="https://raw.githubusercontent.com/polypheny/Admin/master/Logo/logo-transparent.png" media="(prefers-color-scheme:dark)">
+  <img src="https://raw.githubusercontent.com/polypheny/Admin/master/Logo/logo-white-text.png">
+</picture>
 
     </div>
 
