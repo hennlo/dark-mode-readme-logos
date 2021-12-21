@@ -3,9 +3,7 @@
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
         @media (prefers-color-scheme: dark) {
-           body {
-              background: #000;
-          }
+        /* "Give yourself to the Dark Side" - Darth Vader */
         }
       </style>
       
@@ -13,13 +11,13 @@
         <h1>Switch between light and dark mode to see the difference</h1>
         <p>Click to see the source</p>
       </div>
-      
-<picture>
+
+    </div>
+    <picture>
   <source srcset="https://raw.githubusercontent.com/polypheny/Admin/master/Logo/logo-transparent.png" media="(prefers-color-scheme:dark)">
   <img src="https://raw.githubusercontent.com/polypheny/Admin/master/Logo/logo-white-text.png">
 </picture>
 
-    </div>
     
     
 
